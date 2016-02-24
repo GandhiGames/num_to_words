@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D614E5FC1C7E0FA60017890C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D614E5FB1C7E0FA60017890C /* main.cpp */; };
+		D614E6041C7E102A0017890C /* NumWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D614E6021C7E102A0017890C /* NumWords.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D614E5F81C7E0FA60017890C /* number_to_words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = number_to_words; sourceTree = BUILT_PRODUCTS_DIR; };
 		D614E5FB1C7E0FA60017890C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D614E6021C7E102A0017890C /* NumWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumWords.cpp; sourceTree = "<group>"; };
+		D614E6031C7E102A0017890C /* NumWords.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NumWords.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				D614E5FB1C7E0FA60017890C /* main.cpp */,
+				D614E6021C7E102A0017890C /* NumWords.cpp */,
+				D614E6031C7E102A0017890C /* NumWords.hpp */,
 			);
 			path = number_to_words;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D614E6041C7E102A0017890C /* NumWords.cpp in Sources */,
 				D614E5FC1C7E0FA60017890C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +213,7 @@
 		D614E6001C7E0FA60017890C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +221,7 @@
 		D614E6011C7E0FA60017890C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
